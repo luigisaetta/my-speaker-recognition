@@ -40,7 +40,7 @@ Now, it is time to create the environment called **fastapi1**, with all the need
 
 For that we provide you the environment.yml file, containing the list of all Python packages that need to be installed.
 
-Clone the github repository, the move in the speaker directory and execute the command
+Clone the github repository, then move in the speaker directory and execute the conda command
 
 * conda env create --file environment.yml
 
