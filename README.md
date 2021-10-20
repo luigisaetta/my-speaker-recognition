@@ -11,4 +11,11 @@ This repository is used to prepare all docs and artefacts for the MAD Hacks 2022
 ### Documentation
 * how to create the VM to run the REST service
 
+### OCI Cloud services used
+* OCI Compute VM
+* OCI DataScience
+* OCI Object Storage
+* OKE
+* OCI Api Gateway
+
 
