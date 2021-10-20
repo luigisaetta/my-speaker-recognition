@@ -15,4 +15,16 @@ The VM must be placed in the public subnet, to made it accessible from Internet 
 
 The image used is: Canonical-Ubuntu-20.04-2021.09.22-0
 
+We suggest a boot volume of at least 50GB.
+
+### Setup of the Conda environment
+This all all the steps needed to create the right environment to run the REST service:
+
+Install Anaconda distribution:
+* connect through ssh using ubuntu account
+* cd /tmp
+* wget -P /tmp https://repo.anaconda.com/archive/Anaconda3-2020.11-Linux-x86_64.sh
+* bash /tmp/Anaconda3-2020.11-Linux-x86_64.sh
+
+Accept all the default suggestion.
 
