@@ -15,7 +15,7 @@ This repository is used to prepare all docs and artefacts for the **MAD Hacks 20
 * OCI Compute VM
 * OCI DataScience
 * OCI Object Storage
-* OKE
+* OCI Kubernetes Engine
 * OCI Api Gateway
 
 
