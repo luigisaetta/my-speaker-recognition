@@ -26,5 +26,10 @@ Install Anaconda distribution:
 * wget -P /tmp https://repo.anaconda.com/archive/Anaconda3-2020.11-Linux-x86_64.sh
 * bash /tmp/Anaconda3-2020.11-Linux-x86_64.sh
 
-Accept all the default suggestion.
+Accept all the default suggestion:
+* accept license terms (yes)
+* accept /home/ubuntu/anaconda3
+* accept that the installer initialize Anaconda3 (yes)
+* then exit and re-enter
+
 
