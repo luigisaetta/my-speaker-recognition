@@ -9,3 +9,8 @@ You need to create in Oracle Cloud (OCI) the following resources:
 * a VM Compute using as OS Ubuntu 20.04; You can choose the image in the Cloud repository
 * a bucket in Object Storage called: audio_db
 
+We suggest that the VM has at least: **2 OCPU and 16 GB Ram**; The shape we have used in our developments and tests is: VM.Standard.E2.2
+The VM must be placed in the public subnet, to made it accessible from Internet using ssh and HTTP.
+The image used is: Canonical-Ubuntu-20.04-2021.09.22-0
+
+
