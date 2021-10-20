@@ -34,6 +34,7 @@ Accept all the default suggestions:
 
 At this point you should see the usual conda prompt:
 
-* (base) ubuntu@<yourvm-name>:~$ 
+* (base) ubuntu@yourvm-name:~$ 
 
-
+Now, it is time to create the environment called fastapi1, with all the needed Python libraries.
+For that we provide you the environment.
