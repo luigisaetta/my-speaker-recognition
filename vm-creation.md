@@ -36,5 +36,12 @@ At this point you should see the usual conda prompt:
 
 * (base) ubuntu@yourvm-name:~$ 
 
-Now, it is time to create the environment called fastapi1, with all the needed Python libraries.
-For that we provide you the environment.
+Now, it is time to create the environment called **fastapi1**, with all the needed Python libraries.
+
+For that we provide you the environment.yml file, containing the list of all Python packages that need to be installed.
+
+Clone the github repository, the move in the speaker directory and execute the command
+
+* conda env create --file environment.yml
+
+
