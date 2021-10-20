@@ -1,5 +1,5 @@
 ## Speaker Recognition Service
-This repository is used to prepare all docs and artefacts for the MAD Hacks 2022
+This repository is used to prepare all docs and artefacts for the **MAD Hacks 2022**
 
 ### Features
 * A Deep learning model to extract features (embeddings) from a wav file, with the voice of a speaker
