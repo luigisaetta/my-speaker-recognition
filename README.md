@@ -9,7 +9,7 @@ This repository is used to prepare all docs and artefacts for the MAD Hacks 2022
 * some Notebooks with analysis on the embeddings
 
 ### Documentation
-* how to create the VM to run the REST service
+* [how to create the VM to run the REST service](./vm-creation.md)
 
 ### OCI Cloud services used
 * OCI Compute VM
