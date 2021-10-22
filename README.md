@@ -18,4 +18,6 @@ This repository is used to prepare all docs and artefacts for the **MAD Hacks 20
 * OCI Kubernetes Engine
 * OCI Api Gateway
 
-
+### Credits
+The Deep Learning model is partially based on the work done by Philippe Remy.
+The original code is available in the GitHub repository: https://github.com/philipperemy/deep-speaker
