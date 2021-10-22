@@ -37,7 +37,7 @@ At this point you should see the usual conda prompt:
 
 Now, it is time to create the environment called **fastapi1**, with all the needed Python libraries.
 
-For that we provide you the environment.yml file, in the speaker directory, containing the list of all Python packages that need to be installed.
+For that we provide you the **environment.yml** file, in the speaker directory, containing the list of all Python packages that need to be installed.
 
 Clone the github repository, then move in the speaker directory and execute the conda command
 
