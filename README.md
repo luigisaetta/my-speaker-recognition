@@ -26,7 +26,7 @@ The Speaker Recognition Model is entirely running on Oracle Cloud Infrastructure
 * Angular, Bootstrap, jQuery
 * FastAPI
 * Librosa, Pydub
-* Tensorflow2 and Keras
+* TensorFlow2 and Keras
 * Numpy 
 
 ### Credits
