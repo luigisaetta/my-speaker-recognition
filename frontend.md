@@ -23,4 +23,6 @@ image it is supported by most of the browser.
 Strictly related to the fronted we can find the first microservice, a **NodeJS express** 
 application that serve the website and expose different endpoints. 
 This microservice allow the Browser to send the audio file recorded and then it 
-perform the encoding thanks to the **FFmpeg** open-source libraries. Once encoded in 
+perform the encoding thanks to the **FFmpeg** open-source libraries. 
+
+Once encoded in wav format it forward the audio to the Python endpoint that makes the prediction. 
