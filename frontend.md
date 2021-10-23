@@ -20,7 +20,7 @@ To capture the audio from the browser we used the **Media Capture and Streams AP
 and **WebRTC**, in details the **MediaRecorder API**, that as is shown from the below 
 image it is supported by most of the browser.
 
-![supported browsers](./supported_browsers.png)
+![supported browsers](https://github.com/luigisaetta/my-speaker-recognition/blob/main/supported_browers.png)
 
 Strictly related to the fronted we can find the first microservice, a **NodeJS express** 
 application that serve the website and expose different endpoints. 
