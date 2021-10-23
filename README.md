@@ -1,5 +1,5 @@
 ## Speaker Recognition Service
-This repository is used to prepare all docs and artefacts for the **MAD Hacks 2022**
+The Speaker Recognition Service provides you a set of functionalities to enable the recognition of a speaker from a short audio clip of his voice.
 
 ### Features
 * A Deep Learning model to extract features (embeddings) from an audio file, with the voice of a speaker

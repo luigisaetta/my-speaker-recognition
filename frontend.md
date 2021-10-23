@@ -12,9 +12,9 @@ reach great result without spend time on “low level programming”, and with t
 project we tried to take advantage of that as much as possible.
 
 The idea behind it has been to spend more time on developing the ML algorithm, 
-because the quality of the product it is always important, nevertheless the 
+because the quality of the product is always important, nevertheless the 
 presentation layer influence the first impression of the user on the product, than we
-decide that it has to been somehow captivating.
+decided that it has to bee somehow captivating.
 
 To capture the audio from the browser we used the **Media Capture and Streams API** 
 and **WebRTC**, in details the **MediaRecorder API**, that as is shown from the below 
