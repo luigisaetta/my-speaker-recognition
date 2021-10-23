@@ -10,13 +10,21 @@ This repository is used to prepare all docs and artefacts for the **MAD Hacks 20
 
 ### Documentation
 * [how to create the VM to run the REST service](./vm-creation.md)
+* * [the frontend](./frontend.md)
 
-### OCI Cloud services used
+### OCI Cloud Services used
 * OCI Compute VM
 * OCI DataScience
 * OCI Object Storage
 * OCI Kubernetes Engine
 * OCI Api Gateway
+
+### Open Source
+* Angular, Bootstrap, jQuery
+* FastAPI
+* Librosa, Pydub
+* Tensorflow2 and Keras
+* Numpy 
 
 ### Credits
 The Deep Learning model is partially based on the work done by Philippe Remy.
