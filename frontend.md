@@ -20,6 +20,8 @@ To capture the audio from the browser we used the **Media Capture and Streams AP
 and **WebRTC**, in details the **MediaRecorder API**, that as is shown from the below 
 image it is supported by most of the browser.
 
+![supported browsers](supported_browser.png)
+
 Strictly related to the fronted we can find the first microservice, a **NodeJS express** 
 application that serve the website and expose different endpoints. 
 This microservice allow the Browser to send the audio file recorded and then it 
