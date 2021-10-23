@@ -14,6 +14,8 @@ The Speaker Recognition Service provides you a set of functionalities to enable 
 * [the Speaker Recognition model](./speaker-rec-model.md)
 
 ### OCI Cloud Services used
+The Speaker Recognition Model is entirely running on Oracle Cloud Infrastructure (OCI) and has been developed using the OCI services listed below, plus a set of Open Source technologies.
+
 * OCI Compute VM
 * OCI DataScience
 * OCI Object Storage
