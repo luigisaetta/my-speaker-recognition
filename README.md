@@ -10,7 +10,7 @@ This repository is used to prepare all docs and artefacts for the **MAD Hacks 20
 
 ### Documentation
 * [how to create the VM to run the REST service](./vm-creation.md)
-* * [the frontend](./frontend.md)
+* [the frontend](./frontend.md)
 
 ### OCI Cloud Services used
 * OCI Compute VM
