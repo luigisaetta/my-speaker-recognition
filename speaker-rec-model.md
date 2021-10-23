@@ -10,6 +10,9 @@ We have tested the system using **Italian and English** languages.
 
 Since the recognition is based on features of the human voice (frequencies, tone...) and not on words'recognition it should work mostly independently from the language.
 
+### The theory
+The theory underlying the development of the Deep Speaker model is well descibed in arXiv paper: https://arxiv.org/pdf/1705.02304.pdf
+
 ### Credits
 The Deep Learning model is partially based on the work done by Philippe Remy.
 
