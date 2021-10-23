@@ -11,6 +11,7 @@ The Speaker Recognition Service provides you a set of functionalities to enable 
 ### Documentation
 * [how to create the VM to run the REST service](./vm-creation.md)
 * [the frontend](./frontend.md)
+* [the Speaker Recognition model](./speaker-rec-model.md)
 
 ### OCI Cloud Services used
 * OCI Compute VM
