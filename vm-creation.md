@@ -50,6 +50,8 @@ These are the commands:
 * sudo iptables -I INPUT -p tcp -s 0.0.0.0/0 --dport 8888 -j ACCEPT
 * sudo service netfilter-persistent save
 
-In addition you need to reare a security rule for the Public subnet where the VM is located.
-You need to add an inbound rule, to allow the incoming traffic on PORT 8888
+In addition you need to create a security rule for the Public subnet where the VM is located.
+You need to add an ingress rule, to allow the incoming traffic on PORT 8888.
+If you specify 0.0.0.0 as source CIDR, you'll allow traffic from any IP. Otherwise, you can filter only IP from your client network.
+
 
