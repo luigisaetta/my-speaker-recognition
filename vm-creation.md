@@ -49,7 +49,7 @@ To activate manually the environment fastapi1
 
 If you want that the environment fastapi1 becomes the default environment and have it available immediately after login (as ubuntu)
 * modify .bashrc file
-* add at the end the line conda activate fastapi1
+* add at the end the line: conda activate fastapi1
 
 
 ### Firewall
