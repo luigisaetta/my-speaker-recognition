@@ -43,4 +43,13 @@ Clone the github repository, then move in the speaker directory and execute the 
 
 * conda env create --file environment.yml
 
+### Firewall
+You need to open the needed ports in the on-board FW.
+
+These are the commands:
+* sudo iptables -I INPUT -p tcp -s 0.0.0.0/0 --dport 8888 -j ACCEPT
+* sudo service netfilter-persistent save
+
+In addition you need to reare a security rule for the Public subnet where the VM is located.
+You need to add an inbound rule, to allow the incoming traffic on PORT 8888
 
