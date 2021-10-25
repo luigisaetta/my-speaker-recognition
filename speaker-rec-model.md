@@ -28,6 +28,8 @@ cos(x, y) is simply computed using the dot product.
 ### The theory
 The theory underlying the development of the Deep Speaker model is well described, with more details, in arXiv paper: https://arxiv.org/pdf/1705.02304.pdf
 
+**Triplet Loss** is described in FaceNet arXiv paper: https://arxiv.org/pdf/1503.03832.pdf
+
 ### Supported languages
 We have tested the system using the following languages: 
 * Italian
