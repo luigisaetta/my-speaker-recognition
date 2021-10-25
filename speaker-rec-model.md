@@ -13,24 +13,26 @@ For this purpouse, as in most face recognition systems, a Siamese Network is use
 
 In short, for the training of the NN, starting from the train dataset, a series of tripets are assembles (A, P, N). A is the so-called anchor, P is an audio clip from the same speaker of A and N is from a different speaker.
 
-We want to minimize the following Loss Fucntion
+We want to minimize the following Loss Function
 
-triplet loss = max (d(a, p) - d(a, n) +M, 0)
+* triplet loss = max (d(a, p) - d(a, n) +M, 0)
 
 where d(x, y) is the distance from embeddings vectors x and y.
 
 In our model d is computed starting from the cosine similarity.
 
-d = 1 - cos(x, y)
+* d = 1 - cos(x, y)
 
 cos(x, y) is simply computed using the dot product.
- 
  
 ### The theory
 The theory underlying the development of the Deep Speaker model is well described, with more details, in arXiv paper: https://arxiv.org/pdf/1705.02304.pdf
 
 ### Supported languages
-We have tested the system using **Italian and English** languages. 
+We have tested the system using the following languages: 
+* Italian
+* English
+* Romanian
 
 Since the recognition is based on features of the human voice (frequencies, tone...) and not on words'recognition it should work mostly independently from the language.
 
