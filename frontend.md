@@ -5,7 +5,7 @@ Bootstrap and jQuery**.
 
 To maximize the result and minimize the time spent to 
 develop, we didn’t begin from scratch, but we used a template (the mention is on 
-the footer). 
+the footer of the UI page). 
 
 Nowadays, we have many technologies and reusable frameworks that enable us to 
 reach great result without spend time on “low level programming”, and with this 
