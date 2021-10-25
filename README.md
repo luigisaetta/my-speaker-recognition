@@ -32,7 +32,7 @@ The Speaker Recognition Model is entirely running on Oracle Cloud Infrastructure
 ### Language supported
 We believe that the features we're using to recognize the speaker are largely independent from the language.
 
-We have test the service with:
+We have tested the service with:
 * Italian
 * English
 
