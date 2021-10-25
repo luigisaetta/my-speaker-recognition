@@ -1,7 +1,7 @@
 ![ui](https://github.com/luigisaetta/my-speaker-recognition/blob/main/img-ui.png)
 
 ## Speaker Recognition Service
-The Speaker Recognition Service is an AI service that provides you a set of functionalities to enable the recognition of a speaker from a short audio clip of his voice.
+The **Speaker Recognition Service** is an **AI** service that provides you a set of functionalities to enable the recognition of a speaker from a short audio clip of his voice.
 
 ### Features
 * A Deep Learning model to extract features (embeddings) from an audio file, with the voice of a speaker
@@ -16,7 +16,7 @@ The Speaker Recognition Service is an AI service that provides you a set of func
 * [the Speaker Recognition model](./speaker-rec-model.md)
 
 ### OCI Cloud Services used
-The Speaker Recognition Model is entirely running on Oracle Cloud Infrastructure (OCI) and has been developed using the OCI services listed below, plus a set of Open Source technologies.
+The Speaker Recognition Service is entirely running on Oracle Cloud Infrastructure (OCI) and has been developed using the OCI services listed below, plus a set of Open Source technologies.
 
 * OCI Compute VM
 * OCI DataScience
@@ -37,6 +37,7 @@ We believe that the features we're using to recognize the speaker are largely in
 We have tested the service with:
 * Italian
 * English
+* Romanian
 
 ### Credits
 The Deep Learning model is partially based on the work done by Philippe Remy.
