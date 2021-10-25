@@ -1,3 +1,5 @@
+![supported browsers](https://github.com/luigisaetta/my-speaker-recognition/blob/main/img-ui.png)
+
 ## The frontend
 
 The Frontend / UI has been developed using Open Source technology as **Angular, 
