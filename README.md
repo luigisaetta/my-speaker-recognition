@@ -1,3 +1,5 @@
+![ui](https://github.com/luigisaetta/my-speaker-recognition/blob/main/img-ui.png)
+
 ## Speaker Recognition Service
 The Speaker Recognition Service is an AI service that provides you a set of functionalities to enable the recognition of a speaker from a short audio clip of his voice.
 
