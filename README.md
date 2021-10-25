@@ -1,5 +1,5 @@
 ## Speaker Recognition Service
-The Speaker Recognition Service provides you a set of functionalities to enable the recognition of a speaker from a short audio clip of his voice.
+The Speaker Recognition Service is an AI service that provides you a set of functionalities to enable the recognition of a speaker from a short audio clip of his voice.
 
 ### Features
 * A Deep Learning model to extract features (embeddings) from an audio file, with the voice of a speaker
@@ -28,6 +28,13 @@ The Speaker Recognition Model is entirely running on Oracle Cloud Infrastructure
 * Librosa, Pydub
 * TensorFlow2 and Keras
 * Numpy 
+
+### Language supported
+We believe that the features we're using to recognize the speaker are largely independent from the language.
+
+We have test the service with:
+* Italian
+* English
 
 ### Credits
 The Deep Learning model is partially based on the work done by Philippe Remy.
