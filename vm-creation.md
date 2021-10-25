@@ -43,6 +43,15 @@ Clone the github repository, then move in the speaker directory and execute the 
 
 * conda env create --file environment.yml
 
+To activate manually the environment fastapi1
+
+* conda activate fastapi1
+
+If you want that the environment fastapi1 becomes the default environment and have it available immediately after login (as ubuntu)
+* modify .bashrc file
+* add at the end the line conda activate fastapi1
+
+
 ### Firewall
 You need to open the needed ports in the on-board FW.
 
