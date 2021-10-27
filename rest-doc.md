@@ -18,6 +18,8 @@ The REST server provides access to these functionalities:
 ### Test UI
 One of the nice feature of FastAPI is that it creates a nice UI, that can be used to test each individual function and for administration puprposes.
 
+![ui](https://github.com/luigisaetta/my-speaker-recognition/blob/main/rest-ui.png)
+
 FastAPI also create the Swagger doc for the REST service, simplifying integration with other clients.
 
 ### API Gateway
