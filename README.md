@@ -11,9 +11,10 @@ The **Speaker Recognition Service** is an **AI** service that provides you a set
 * some **Data Science** Notebooks with analysis on the embeddings
 
 ### Documentation
-* [how to create the VM to run the REST service](./vm-creation.md)
 * [the UI Frontend](./frontend.md)
 * [the Speaker Recognition model](./speaker-rec-model.md)
+* [the REST Service](./rest-doc.md)
+* [how to create the VM to run the REST service](./vm-creation.md) 
 
 ### OCI Cloud Services used
 The Speaker Recognition Service is entirely running on Oracle Cloud Infrastructure (OCI) and has been developed using the OCI services listed below, plus a set of Open Source technologies.
