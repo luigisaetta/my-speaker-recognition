@@ -27,4 +27,4 @@ application that serve the website and expose different endpoints.
 This microservice allow the Browser to send the audio file recorded and then it 
 perform the encoding thanks to the **FFmpeg** open-source libraries. 
 
-Once encoded in wav format it forward the audio to the Python endpoint that makes the prediction. 
+Once encoded in wav format it forwards the audio to the REST endpoint that makes the prediction. 
