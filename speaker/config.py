@@ -17,7 +17,7 @@ description = """
     """
 
 global_settings = dict(
-    VERSION = "0.5.5",
+    VERSION = "0.7.1",
 
     # can be: local or cloud
     CONFIG_TYPE = "local",
@@ -47,13 +47,12 @@ global_settings = dict(
     MODEL_FILE = 'model.h5',
     # length of the embedding vector
     EMBEDDING_DIMS = 512,
-    # THR for verify
-    # if there is a speaker in the DB for which the distance is lesss than THR then
-    # verify return true
-    THRESHOLD = 0.3,
+    
+    # used by verify: compare name with the name of the first NUM_CANDIDATES 
+    NUM_CANDIDATES = 2,
 
     # description used by FastAPI
-    TITLE = "Speaker Identification/Verification Service",
+    TITLE = "Speaker Recognition Service",
 
     DESCRIPTION = description
 )

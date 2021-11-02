@@ -229,8 +229,12 @@ def identify(file: bytes = File(...)):
     
     return out_dict
 
+#
+# compare name with names of first NUM_CANDIDATES 
+# if names is in first NUM_CANDIDATES return OK
+#
 @app.post("/verify", tags=["Identification"]) 
-def verify(file: bytes = File(...)):
+def verify(name: str, file: bytes = File(...)):
 
     # for timing the request
     tStart = time.time()
@@ -243,24 +247,28 @@ def verify(file: bytes = File(...)):
         embedding = compute_embeddings(file, model)
         
         # compare with all centroids
+        # out dict is already in iorder of increasing distance
         out_dict = compare_other_centroids(embedding, centroids)
 
         # compute the summary result
         final_dict_out["summary"] = "false"
-        final_dict_out["result"] = out_dict
+        final_dict_out['result'] = out_dict
 
         list_pair = out_dict["result"]
 
-        for pair in list_pair:
-            if pair["result"] < config.global_settings['THRESHOLD']:
-                final_dict_out["summary"] = "true"
-                break
+        for i, pair in enumerate(list_pair):
+            # consider only the first NUM_CANDIDATES
+            if i < config.global_settings['NUM_CANDIDATES']:
+                # compare ignoring case
+                if pair["name"].upper() == name.upper():
+                    final_dict_out["summary"] = "true"
+                    break
         
         print_dict(final_dict_out)
         
         tEla = time.time() - tStart
         print()
-        log.info('Elapsed time (sec.)', round(tEla, 3))
+        print('Elapsed time (sec.)', round(tEla, 3))
         
     except Exception as e:
         print('The exception is:', e)
